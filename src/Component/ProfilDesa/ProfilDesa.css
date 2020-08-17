@@ -1,0 +1,142 @@
+.containerProfil{
+    background-color: blanchedalmond;
+}
+.sejarahHeader{
+    top:10em;
+    text-align: center;
+}
+.cardSejarah{
+    top:5em;
+    width: 15rem;
+    margin-left: 2em;
+}
+.sectionHeading{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.Title{
+    text-align: center;
+    font-size: 2rem;
+}
+.wilayahHeader{
+    text-align: center;
+}
+.headerVisi{
+    text-align: center;
+}
+.cardVisi{
+    top:5em;
+    width: 20rem;
+    bottom: 10em;
+}
+.fasWilayah{
+    margin-left: 10;
+}
+.cardWilayah{
+    top:10em;
+    width: 20rem
+}
+.cardPenduduk{
+top:15em;
+margin-top:4em;
+width:35rem;
+}
+.fasPenduduk{
+    margin-left: 10;
+}
+.PendudukHeader{
+    text-align: center;
+}
+.fasVisi{
+    margin-left:10;
+}
+.colSejarah{
+    margin:0;
+}
+@media (min-width:576px){
+    .containerProfil{
+        font-size: 14px;
+    }
+    .logo{
+        margin-right:5em;
+    }
+    .cardSejarah{
+        top: 3em;
+        margin-left: 10em;
+        width: 25em;
+        text-align: justify;
+    }
+    .cardWilayah{
+        top:7em;
+        width:25em;
+        margin-left: 10em;
+        text-align: justify;
+    }
+    .cardVisi{
+        top:5em;
+        margin-left: 10em;
+        width: 25em;
+        text-align: justify;
+    }
+    .cardPenduduk{
+        width: 25em;
+        margin-left: 10em;
+        text-align: justify;
+        top:5em
+    }
+    .header{
+        top:20px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 50px;
+        left: 10%;
+        text-align: center;
+    }
+
+}
+@media (min-width:768px){
+    .cardSejarah{
+        top:3em;
+        margin-left: 4em;
+        width: 35em;
+    }
+    .cardWilayah{
+        top:3em;
+        width: 30em;
+        height:26em;
+        right: 5em;
+    }
+    .cardVisi{
+        top:3em;
+        height: 23em;
+        width: 35em;
+    }
+    .cardPenduduk{
+        top:3em;
+        width: 41em;
+        right: 2em;
+    }
+    .colVisi{
+        right:5em;
+    }
+    .colSejarah{
+        right: -3em;
+    }
+    .colWilayah{
+        right: 3em;
+        top:4em;
+    }
+    .btnVisi{
+        margin-top: 4m;
+
+    }
+    .header{
+        top:20px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 250px;
+        left: 10%;
+        text-align: center;
+    }
+    
+}

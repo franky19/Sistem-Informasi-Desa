@@ -1,0 +1,67 @@
+import React,{Component} from 'react';
+import {Container,Row,Col,Card,Button} from 'react-bootstrap'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faHistory, faEye,faUsers,faGlobe} from '@fortawesome/free-solid-svg-icons'
+import './Bumkam.css'
+import {Link, BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import Makanan from '../Asset/holiday/logobelanja.png'
+import Jasa from '../Asset/holiday/logoliburan.png'
+
+export default class Bumkam extends Component{
+    render(){
+        return(
+            <Container fluid className="containerProfil">
+                <Row> 
+                    <div className="headerLayanan">
+                        <h3 className=" section-heading text-uppercase">Layanan</h3>
+                        <h3 className="section-subheading text-muted">Berikut adalah layanan yang akan kami berikan kepada anda
+            </h3>
+                    </div>
+                    <Col sm className="colProduk"><Produk /></Col>
+                    <Col sm className="colServices"><Services /></Col>
+                    
+                </Row>
+            </Container>
+        )
+    }
+}
+        
+
+export class Produk extends Component{
+    render(){
+        return(
+            <Card className="cardProduk">
+ <Card.Header className="produkHeader">
+ <img src={Makanan}  className="libur" alt=""/>
+ </Card.Header>
+  <Card.Body>
+    <Card.Title className="Title">Produk Makanan</Card.Title>
+    <Card.Text>
+    
+                <p className="text-muted">Kami memiliki beberapa produk makanan yang diolah langsung oleh para perajin makanan yang ada didesa batu putih</p>
+                <a href="#portfolio">Lihat Selengkapnya</a> 
+    </Card.Text>
+  </Card.Body>
+</Card>
+        )
+    }
+}
+
+export class Services extends Component{
+    render(){
+        return(
+            <Card className="cardServices">
+  <Card.Header className="headerServices">
+  <img src={Jasa} class="libur"/></Card.Header>
+  <Card.Body>
+    <Card.Title className="Title">Produk Jasa</Card.Title>
+    <Card.Text>
+<p class="text-muted">Kami menyediakan paket wisata kepada anda yang ingin liburan ke kampung batu putih.</p>
+<a href="#pariwisata">Lihat Selengkapnya</a>
+    </Card.Text>
+  </Card.Body>
+</Card>
+        )
+    }
+}
+

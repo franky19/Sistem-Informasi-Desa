@@ -1,0 +1,123 @@
+.libur{
+    height: 15%;
+    width: 15%;
+    text-align: center;
+    
+}
+.BUMKam{
+    margin-top: 50px
+}
+.Makan{
+    margin-top: 10px;
+    top: 100%;
+}
+.containerProfil{
+    background-color: blanchedalmond;
+}
+.produkHeader{
+    top:10em;
+    text-align: center;
+}
+.cardProduk{
+    top:5em;
+    width: 15rem;
+    margin-left: 2em;
+}
+.headerLayanan{
+    top:70px;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 250px;
+    left: 10%;
+    text-align: center;
+}
+.sectionHeading{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.Title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.headerServices{
+    text-align: center;
+}
+.cardServices{
+    top:5em;
+    width: 20rem;
+    bottom: 10em;
+}
+
+.colSejarah{
+    margin:0;
+}
+@media (min-width:576px){
+    .containerProfil{
+        font-size: 14px;
+    }
+    .logo{
+        margin-right:5em;
+    }
+    .cardKades{
+        top: 3em;
+        margin-left: 10em;
+        width: 25em;
+        text-align: justify;
+    }
+    
+    .cardServices{
+        top:5em;
+        margin-left: 10em;
+        width: 25em;
+        text-align: justify;
+    }
+    .headerPemerintah{
+        top:70px;
+        margin-top: 150px;
+        margin-right: 10px;
+        left: 10%;
+        text-align: center;
+    }
+
+}
+@media (min-width:768px){
+    .cardKades{
+        top:3em;
+        margin-left: 4em;
+        width: 35em;
+    }
+    
+    .cardServices{
+        top:3em;
+        height: 20em;
+        width: 35em;
+    }
+    
+    .colServices{
+        right:5em;
+    }
+    .colProduk{
+        right: -3em;
+    }
+    
+    .headerPemerintah{
+        top:70px;
+        margin-top: 100px;
+        margin-right: 10px;
+        margin-left: 250px;
+        left: 10%;
+        text-align: center;
+    }
+    .kades{
+        height: 200px;
+    }
+    .struktur{
+        top: 20px;
+        margin-top: 5%;
+        text-align: center;
+        margin-left:50%;
+        font-size: 15px;
+        font-weight: 20px;
+    }
+}
